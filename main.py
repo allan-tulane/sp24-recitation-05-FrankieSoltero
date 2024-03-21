@@ -15,7 +15,11 @@ def ssort(L):
 def qsort(a, pivot_fn):
     ## TO DO
     pass
-    
+def pivot_first(a):
+    return a[0]
+def pivot_random(a):
+    return random.choice(a)
+
 def time_search(sort_fn, mylist):
     """
     Return the number of milliseconds to run this
